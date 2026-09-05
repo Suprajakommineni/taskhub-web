@@ -1,0 +1,10 @@
+<svg width="220" height="56" viewBox="0 0 220 56" xmlns="http://www.w3.org/2000/svg">
+  <!-- Icon: rounded square with a checkmark made of two overlapping "task card" shapes -->
+  <rect x="0" y="4" width="48" height="48" rx="12" fill="#4F46E5"/>
+  <rect x="10" y="14" width="20" height="8" rx="3" fill="white" fill-opacity="0.95"/>
+  <rect x="10" y="26" width="28" height="8" rx="3" fill="white" fill-opacity="0.6"/>
+  <path d="M13 40 L18 45 L28 33" stroke="white" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Wordmark -->
+  <text x="62" y="36" font-family="Inter, -apple-system, sans-serif" font-size="26" font-weight="700" fill="#1F2937">Task<tspan fill="#4F46E5">Hub</tspan></text>
+</svg>
