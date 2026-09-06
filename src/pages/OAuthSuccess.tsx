@@ -6,12 +6,11 @@ export default function OAuthSuccess() {
     const token = params.get('token');
 
     if (token) {
-      localStorage.setItem('token', token);
-      window.location.href = '/dashboard';
-    } else {
-      window.location.href = '/login';
-    }
-  }, []);
+  localStorage.setItem('token', token);
+  window.location.href = '/projects';   // was '/dashboard'
+} else {
+  window.location.href = '/login';
+}});
 
   return (
     <div className="min-h-screen flex items-center justify-center">
