@@ -8,7 +8,7 @@ export function getUserFromToken(): JwtPayload | null {
     if(!token) return null;
     try{
         const payload = token.split('.')[1];
-        const decoded = JSON.parse(atob(payload.replace(/-/g, '+').replace(/_/, '/')));
+        const decoded = JSON.parse(atob(payload.replace(/-/g, '+').replace(/_/g, '/')));
         return decoded as JwtPayload;
     } catch {
         return null;
